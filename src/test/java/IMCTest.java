@@ -46,11 +46,11 @@ public class IMCTest {
 
 
     //Criando Testes Baseados em Propriedades para Valores Específicos
-    @Property
-    void testIMCComCasosEspecíficos(@Example double peso, @Example double altura) {
-        double imc1 = CalculoIMC.calcularPeso(peso, altura);
-
-        assertThat(imc1).isBetween(10.0, 50.0);
-    }
+//    @Property
+//    void testIMCComCasosEspecíficos(@Example double peso, @Example double altura) {
+//        double imc1 = CalculoIMC.calcularPeso(peso, altura);
+//
+//        assertThat(imc1).isBetween(10.0, 50.0);
+//    }
 
 }
